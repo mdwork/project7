@@ -167,6 +167,206 @@ a:hover                        { text-decoration:none; }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------CONTENT--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
+.content {}
+    .header-blue {
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        color: #0f67a5;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .wrap-form-choose-tour {
+        width: 940px;
+        min-height: 293px;
+        padding: 17px 30px;
+        margin-bottom: 65px;
+        background: url("../images/content/bg_form_choose.png") no-repeat;
+        background-size: 100% 100%;
+    }
+        .form-choose-tour {
+            overflow: hidden;
+            width: 750px;
+            margin: 20px auto 0;
+        }
+            .header-bold-black {
+                display: block;
+                margin-bottom: 10px;
+                font-size: 15px;
+                font-weight: bold;
+            }
+                .wrap-btn-search {
+                    position: relative;
+                    display: block;
+                    padding: 8px 10px;
+                    margin-top: 5px;
+                    border: 1px solid #0F67A5;
+                    background: #fff;
+
+                    -webkit-border-radius: 2px;
+                    -moz-border-radius: 2px;
+                    border-radius: 2px;
+                }
+                .wrap-btn-search:before {
+                    content: '';
+                    position: absolute;
+                    left: 10px;
+                    top: 5px;
+                    width: 21px;
+                    height: 21px;
+                    background: url("../images/content/icon_search.jpg") no-repeat;
+                }
+                .wrap-btn-search:after {
+                    content: '';
+                    position: absolute;
+                    right: 9px;
+                    top: 12px;
+                    width: 15px;
+                    height: 10px;
+                    background: url("../images/content/icon_triagle_bottom.jpg") no-repeat;
+                }
+                    .wrap-btn-search input {
+                        display: block;
+                        width: 680px;
+                        margin-left: 30px;
+                        font-size: 15px;
+                        border: none;
+                    }
+            .list-select-box-choose {
+                overflow: hidden;
+                margin-bottom: 25px;
+            }
+                .list-select-box-choose li {
+                    float: left;
+                    margin-left: 33px;
+                }
+                .list-select-box-choose li:first-child {
+                    margin-left: 0;
+                }
+                    .name-block-form {
+                        display: block;
+                        margin-bottom: 5px;
+                        font-size: 15px;
+                    }
+                    .custom-bg-select {
+                        position: relative;
+                        display: block;
+                        border: 1px solid #0F67A5;
+                        background: #fff;
+
+                        -webkit-border-radius: 2px;
+                        -moz-border-radius: 2px;
+                        border-radius: 2px;
+                    }
+                        .custom-bg-select:after {
+                            content: '';
+                            display: block;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            width: 30px;
+                            height: 33px;
+                            background: url("../images/content/icon_triagle_bottom.jpg") center center #fff no-repeat;
+                        }
+                        .custom-bg-select select {
+                            height: 33px;
+                            padding: 7px 0;
+                            padding-right: 10px;
+                            font-size: 15px;
+                            font-weight: bold;
+                            border: none;
+                            background: none;
+                        }
+                    .first-box select {
+                        width: 263px;
+                        padding-left: 80px;
+                    }
+                    .second-box select {
+                        width: 153px;
+                        padding-left: 55px;
+                    }
+                    .third-box select {
+                        width: 262px;
+                        padding-left: 35px;
+                    }
+
+            .wrap-list-stars,
+            .box-input {
+                overflow: hidden;
+                float: left;
+                margin-right: 65px;
+            }
+            .wrap-list-stars {
+                width: 140px;
+            }
+                .list-stars {
+                    overflow: hidden;
+                }
+                    .list-stars li {
+                        float: left;
+                        width: 16px;
+                        height: 16px;
+                        margin-left: 13px;
+                        background: url("../images/content/stars.png") -30px 0 no-repeat;
+                        cursor: pointer;
+                    }
+                    .list-stars li:first-child {
+                        margin-left: 0;
+                    }
+                    .list-stars li.active {
+                        background-position: 0 0;
+                    }
+                .box-input select {
+                    width: 153px;
+                    padding-left: 55px;
+                }
+
+            .btn-big-blue {
+                width: 300px;
+                padding: 14px 0;
+                background: #0F67A5;
+                color: #f9f740;
+                text-align: center;
+                border: none;
+                font-size: 19px;
+
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                border-radius: 5px;
+
+                -webkit-box-shadow: 0 5px 0 0 rgb(13,92,148);
+                -moz-box-shadow:    0 5px 0 0 rgb(13,92,148);
+                box-shadow:         0 5px 0 0 rgb(13,92,148);
+            }
+            .btn-big-blue:hover {
+                background: #0D5C94;
+            }
+
+    .wrap-list-advantage {
+        overflow: hidden;
+        margin-bottom: 100px;
+    }
+        .list-advantage {
+            margin-top: 50px;
+        }
+            .list-advantage li {
+                float: left;
+                width: 235px;
+            }
+                .list-advantage .wrap-foto {
+                    display: block;
+                    line-height: 75px;
+                    margin-bottom: 50px;
+                    text-align: center;
+                }
+                    .list-advantage img {
+                        vertical-align: bottom;
+                    }
+                .list-advantage span {
+                    display: inline-block;
+                    width: 100%;
+                    text-align: center;
+                    font-size: 13px;
+                }
 
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------SIDEBAR--------------------------------------*/
@@ -176,9 +376,39 @@ a:hover                        { text-decoration:none; }
 /*-------------------------------------FOOTER---------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 .wrap-footer {
+    overflow: hidden;
     padding: 30px 0 25px;
     border-top: 1px solid #E6EFF6;
 }
+    .box-copyright {
+        float: left;
+        width: 150px;
+        margin-top: 10px;
+        font-size: 11px;
+        color: #666;
+    }
+    .box-author {
+        float: right;
+        color: #999;
+        font-size: 13px;
+    }
+.box-author span {
+    float: left;
+    margin: 16px 10px 0 0;
+}
+    .nav-footer {
+        width: 430px;
+        margin: 0 auto;
+        padding-top: 5px;
+        text-align: center;
+    }
+        .nav-footer li {
+            display: inline-block;
+            margin: 0 20px 3px 0;
+        }
+            .nav-footer a {
+                color: #0f67a5;
+            }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------RESPONSIVE-----------------------------------*/
 /*----------------------------------------------------------------------------------*/
