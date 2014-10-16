@@ -113,7 +113,6 @@ a:hover                        { text-decoration:none; }
                 padding: 3px 0;
                 color: #0f67a5;
                 background: none;
-                border: none;
                 font: italic 15px "MinionPro-Semibold";
                 cursor: pointer;
                 border: 1px dashed #0f67a5;
@@ -271,8 +270,7 @@ a:hover                        { text-decoration:none; }
                         .custom-bg-select select {
                             height: 33px;
                             line-height: 30px;
-                            padding: 7px 0;
-                            padding-right: 10px;
+                            padding: 7px 10px 7px 0;
                             font-size: 15px;
                             font-weight: bold;
                             border: none;
@@ -521,11 +519,6 @@ a:hover                        { text-decoration:none; }
             .text-column p {
                 color: #666;
             }
-
-/*----------------------------------------------------------------------------------*/
-/*-------------------------------------SIDEBAR--------------------------------------*/
-/*----------------------------------------------------------------------------------*/
-
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------FOOTER---------------------------------------*/
 /*----------------------------------------------------------------------------------*/
@@ -560,8 +553,11 @@ a:hover                        { text-decoration:none; }
             display: inline-block;
             margin: 0 20px 3px 0;
         }
-            .nav-footer a {
+            .home .nav-footer a {
                 color: #0f67a5;
+            }
+            .nav-footer a {
+                color: #881484;
             }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------RESPONSIVE-----------------------------------*/
