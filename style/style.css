@@ -124,6 +124,7 @@ a:hover                        { text-decoration:none; }
 /*----nav----*/
 .main-nav {
     position: relative;
+    height: 37px;
     margin: 30px 15px 0;
     padding: 4px 0;
     background: #F1EE51;
@@ -269,6 +270,7 @@ a:hover                        { text-decoration:none; }
                         }
                         .custom-bg-select select {
                             height: 33px;
+                            line-height: 30px;
                             padding: 7px 0;
                             padding-right: 10px;
                             font-size: 15px;
@@ -322,11 +324,12 @@ a:hover                        { text-decoration:none; }
 
             .btn-big-blue {
                 width: 300px;
-                padding: 14px 0;
+                padding: 14px 0 13px;
                 background: #0F67A5;
                 color: #f9f740;
                 text-align: center;
                 border: none;
+                border-bottom: 1px solid #0F67A5;
                 font-size: 19px;
 
                 -webkit-border-radius: 5px;
@@ -339,6 +342,7 @@ a:hover                        { text-decoration:none; }
             }
             .btn-big-blue:hover {
                 background: #0D5C94;
+                border-bottom: 1px solid #0D5C94;
             }
 
     .wrap-list-advantage {
@@ -367,6 +371,156 @@ a:hover                        { text-decoration:none; }
                     text-align: center;
                     font-size: 13px;
                 }
+
+    .wrap-list-actions {
+        overflow: hidden;
+        margin-bottom: 60px;
+    }
+        .list-actions {
+            width: 1010px;
+        }
+            .list-actions li {
+                position: relative;
+                float: left;
+                margin: 0 10px 10px 0;
+            }
+            .list-actions li:first-child:after {
+                content: '';
+                display: block;
+                position: absolute;
+                z-index: 1;
+                top: -37px;
+                right: -25px;
+                width: 65px;
+                height: 79px;
+                background: url("../images/content/parrot.jpg") no-repeat;
+            }
+                .list-actions img {
+                    position: relative;
+                    z-index: 10;
+                    display: block;
+                    width: 325px;
+                    height: 137px;
+                }
+                .box-info-action {
+                    position: absolute;
+                    z-index: 11;
+                    top: 50%;
+                    left: 50%;
+                    width: 200px;
+                    height: 60px;
+                    margin: -30px 0 0 -100px;
+                    background: #F1EE51;
+                    text-align: center;
+                }
+                    .box-info-action .header-blue {
+                        margin-bottom: 0;
+                    }
+
+    .box-countries {
+        position: relative;
+        margin-bottom: 55px;
+    }
+        .box-countries:after {
+            content: '';
+            position: absolute;
+            top: 50px;
+            right: -120px;
+            z-index: 1;
+            display: block;
+            width: 188px;
+            height: 235px;
+            background: url("../images/content/balloon.jpg") no-repeat;
+        }
+        .list-countries {
+            position: relative;
+            z-index: 10;
+            width: 973px;
+            height: 173px;
+            padding: 36px 0 0 27px;
+            background: url("../images/content/border_fon.png") #fff no-repeat;
+        }
+            .list-countries li {
+                float: left;
+                width: 145px;
+                margin: 0 55px 20px 0;
+            }
+                .list-countries a:hover span {
+                    text-decoration: underline;
+                }
+                    .list-countries img {
+                        float: left;
+                        width: 30px;
+                        height: 20px;
+                    }
+                    .name-countries {
+                        display: inline-table;
+                        line-height: 20px;
+                        text-transform: uppercase;
+                        font-weight: 700;
+                        margin-left: 15px;
+                    }
+
+    .box-partners {
+        position: relative;
+        margin-bottom: 30px;
+    }
+        .bg-slider {
+            background: #F6F6F6;
+        }
+            .any-class {
+                margin: 0 auto;
+                padding: 10px 0;
+
+            }
+                .any-class li div {
+                    width: 235px;
+                    height: 85px;
+                    line-height: 85px;
+                    text-align: center;
+                }
+                    .any-class li img {
+                        vertical-align: middle;
+                    }
+                .box-partners .prev,
+                .box-partners .next {
+                    position: absolute;
+                    top: 85px;
+                    z-index: 10;
+                    width: 10px;
+                    height: 12px;
+                    border: none;
+                    cursor: pointer;
+                }
+                .box-partners .prev {
+                    left: 10px;
+                    background: url("../images/content/prev.png") no-repeat;
+                }
+                .box-partners .next {
+                    right: 10px;
+                    background: url("../images/content/next.png") no-repeat;
+                }
+
+    .text-column {
+        overflow: hidden;
+        margin-bottom: 35px;
+        font-size: 13px;
+    }
+        .left-column,
+        .right-column {
+            float: left;
+            width: 456px;
+            padding: 0 22px;
+            text-align: justify;
+        }
+            .text-column strong,
+            .text-column p {
+                display: block;
+                margin-bottom: 20px;
+            }
+            .text-column p {
+                color: #666;
+            }
 
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------SIDEBAR--------------------------------------*/
