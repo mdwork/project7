@@ -84,7 +84,7 @@ a:hover                        { text-decoration:none; }
             width: 509px;
             height: 129px;
         }
-    .box-contact {
+    .box-contact-header {
         float: right;
         margin-top: 15px;
         font: 300 23px "MinionPro-Semibold";
@@ -519,12 +519,103 @@ a:hover                        { text-decoration:none; }
             .text-column p {
                 color: #666;
             }
+
+.bg-contact {
+    height: 523px;
+    padding: 22px 50px 25px;
+    margin-bottom: 45px;
+    background: url("../images/content/bg_contact.png") no-repeat;
+}
+    .main-header {
+        margin-bottom: 30px;
+        font-size: 35px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .box-contact {
+        float: left;
+        width: 390px;
+        font-size: 15px;
+    }
+        .box-contact dt {
+            font-weight: 600;
+            margin-top: 15px;
+        }
+        .box-contact dt:first-child {
+            margin-top: 0;
+        }
+        .box-contact img {
+            margin-top: 20px;
+        }
+
+    .form-box-contact {
+        float: right;
+        width: 390px;
+    }
+        .form-box-contact textarea {
+            float: right;
+            height: 145px;
+            resize: none;
+        }
+        .form-box-contact label,
+        .form-box-contact textarea {
+            display: block;
+            margin-bottom: 30px;
+            font-size: 15px;
+        }
+        .form-box-contact input,
+        .form-box-contact textarea {
+            width: 240px;
+            padding: 0 5px;
+            font-size: 15px;
+            border: 1px solid #9D4084;
+            line-height: 33px;
+
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+        }
+        .form-box-contact span {
+            display: inline-block;
+            width: 114px;
+            margin-right: 20px;
+            text-align: right;
+        }
+        .form-box-contact textarea {
+            margin-bottom: 35px;
+            font-size: 13px;
+        }
+        .form-box-contact .btn-big-purple {
+            display: block;
+            width: 250px;
+            padding: 11px 0;
+            background: #B14895;
+            border-bottom: 1px solid #B14895;
+            color: #fff;
+            font-size: 16px;
+
+            -webkit-box-shadow: 0 5px 0 0 rgb(157,64,132);
+            -moz-box-shadow:    0 5px 0 0 rgb(157,64,132);
+            box-shadow:         0 5px 0 0 rgb(157,64,132);
+
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+        }
+        .btn-big-purple:hover {
+            background: #9D4084;
+            border-bottom-color: #9D4084;
+        }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------FOOTER---------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 .wrap-footer {
     overflow: hidden;
     padding: 30px 0 25px;
+    border-top: 1px solid #DB7297;
+}
+.home .wrap-footer {
     border-top: 1px solid #E6EFF6;
 }
     .box-copyright {

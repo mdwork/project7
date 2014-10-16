@@ -3,24 +3,24 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Главная - Альфа-тур</title>
+    <title>Контакты - Альфа-тур</title>
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href="style/style.css" rel="stylesheet">
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 </head>
 
-<body class="home">
+<body>
     <div class="wrapper">
         <header class="header">
             <div class="clearfix">
-                <h1 class="main-logo">
+                <div class="main-logo">
                     <a href="#">
                         <img src="images/header/main_logo.png" alt="logo"/>
                     </a>
-                </h1>
+                </div>
 
-                <div class="box-contact">
+                <div class="box-contact-header">
                     <span class="tel-header">8 (800) 123-45-67</span>
                     <span class="tel-header">8 (800) 123-45-67</span>
                     <span class="wrap-btn-yellow">
@@ -42,358 +42,51 @@
             </nav><!--end MAIN-NAV-->
         </header><!--end HEADER-->
 
-        <main class="content">
-            <div class="wrap-form-choose-tour">
-                <header class="header-blue">Подберите тур онлайн:</header>
+        <main class="content bg-contact">
+            <h1 class="main-header">Контакты:</h1>
 
-                <form class="form-choose-tour" action="#" method="post" name="form choose tour">
-                    <label class="header-bold-black">
-                        из Калининграда
-                        <span class="wrap-btn-search">
-                            <input type="text" placeholder="Страна, город или отель">
-                        </span>
-                    </label>
+            <dl class="box-contact">
+                <dt>Наш адрес:</dt>
+                <dd>73000</dd>
+                <dd>г.Херсон</dd>
+                <dd>ул.Советская, 12/14, Б</dd>
 
-                    <ul class="list-select-box-choose">
-                        <li class="first-box">
-                            <span class="name-block-form">Даты вылета:</span>
-                            <span class="custom-bg-select">
-                                <select>
-                                    <option>3 сен - 15 сен</option>
-                                    <option>3 сен - 15 сен</option>
-                                    <option>3 сен - 15 сен</option>
-                                </select>
-                            </span>
-                        </li>
+                <dt>Режим работы:</dt>
+                <dd>понедельник - пятница, с 9:00 до 18:00</dd>
+                <dd>суббота: с 10:00 до 18:00</dd>
+                <dd>воскременье: по предварительной договоренности</dd>
 
-                        <li class="second-box">
-                            <span class="name-block-form">Ночей:</span>
-                            <span class="custom-bg-select">
-                                <select>
-                                    <option>6 - 18</option>
-                                    <option>6 - 18</option>
-                                    <option>6 - 18</option>
-                                </select>
-                            </span>
-                        </li>
+                <dt>Телефоны отдела продаж и техподдержки клиентов:</dt>
+                <dd>+38 (050) 846-44-62</dd>
+                <dd>+38 (099) 666-11-37</dd>
+                <dd>
+                    <img src="http://api-maps.yandex.ru/services/constructor/1.0/static/?sid=xenC1AQodNB0A4sM2u06P5G2eG-R_ijt&width=390&height=150" alt=""/>
+                </dd>
+            </dl><!--end BOX-CONTACT-->
 
-                        <li class="third-box">
-                            <span class="name-block-form">Туристы:</span>
-                            <span class="custom-bg-select">
-                                <select>
-                                    <option>2 взрослых 1 ребенок</option>
-                                    <option>2 взрослых 1 ребенок</option>
-                                    <option>2 взрослых 1 ребенок</option>
-                                </select>
-                            </span>
-                        </li>
-                    </ul><!--end LIST-SELECT-BOX-CHOOSE-->
+            <form action="#" method="post" class="form-box-contact">
+                <label>
+                    <span>Ваше имя:</span>
+                    <input type="text">
+                </label>
 
-                    <div class="wrap-list-stars">
-                        <span class="name-block-form">Класс отеля от:</span>
-                        <ul class="list-stars">
-                            <li class="first-star active"></li>
-                            <li class="second-star active"></li>
-                            <li class="third-star"></li>
-                            <li class="fourth-star"></li>
-                            <li class="fifth-star"></li>
-                        </ul>
-                    </div><!--end WRAP-LIST-STARS-->
+                <label>
+                    <span>Ваш email:</span>
+                    <input type="text">
+                </label>
 
-                    <div class="box-input">
-                        <span class="name-block-form">Питание от:</span>
-                        <span class="custom-bg-select">
-                            <select>
-                                <option>Любое</option>
-                                <option>Любое</option>
-                                <option>Любое</option>
-                            </select>
-                        </span>
-                    </div><!--end BOX-INPUT-->
+                <label>
+                    <span>Ваше телефон:</span>
+                    <input type="text">
+                </label>
 
-                    <input type="submit" class="btn-big-blue float-r" value="Поиск туров!">
-                </form><!--end FORM-CHOOSE-BLUE-->
-            </div><!--end WRAP-FORM-CHOOSE-TOUR-->
+                <label>
+                    <textarea></textarea>
+                    <span>Сообщение:</span>
+                </label>
 
-            <div class="wrap-list-advantage">
-                <header class="header-blue">Почему стоит отдыхать с нами?</header>
-                <ul class="list-advantage">
-                    <li>
-                        <span class="wrap-foto">
-                            <img src="images/content/advatage_image1.png" alt="foto">
-                        </span>
-                        <header class="header-bold-black align-c">Сим карта в подарок</header>
-                        <span>20 евро на счете: 1 час разговора или 50 SMS, или 500 МБ трафика в интернете</span>
-                    </li>
-
-                    <li>
-                        <span class="wrap-foto">
-                            <img src="images/content/advatage_image2.png" alt="foto">
-                        </span>
-                        <header class="header-bold-black align-c">Бесплатное такси до аеропорта и обратно</header>
-                        <span>При покупке тура от 40 т.р.</span>
-                    </li>
-
-                    <li>
-                        <span class="wrap-foto">
-                            <img src="images/content/advatage_image3.png" alt="foto">
-                        </span>
-                        <header class="header-bold-black align-c">Подушка под шею и наклейка на багаж</header>
-                        <span>Отдыхайте с комфортом и быстро находите свой багаж в аеропорте</span>
-                    </li>
-
-                    <li>
-                        <span class="wrap-foto">
-                            <img src="images/content/advatage_image4.png" alt="foto">
-                        </span>
-                        <header class="header-bold-black align-c">Летите в жаркие страны?</header>
-                        <span>Получите в подарок защитный крем. Ведь о них все забывают</span>
-                    </li>
-                </ul>
-            </div><!--end LIST-ADVANTAGE-->
-
-            <div class="wrap-list-actions">
-                <header class="header-blue">Акции дня:</header>
-
-                <ul class="list-actions">
-                    <li>
-                        <a href="#"><img src="images/content/action1.jpg" alt="foto"></a>
-                        <div class="box-info-action">
-                            <header class="header-blue">Бразилия</header>
-                            <p>вылеты с января по сентябрь на 14 дней от 55 000р</p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <a href="#"><img src="images/content/action2.jpg" alt="foto"></a>
-                        <div class="box-info-action">
-                            <header class="header-blue">Рим</header>
-                            <p>вылеты с июля по август на 14 дней от 55 000р</p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <a href="#"><img src="images/content/action3.jpg" alt="foto"></a>
-                        <div class="box-info-action">
-                            <header class="header-blue">Италия</header>
-                            <p>вылеты с октября по январь на 14 дней от 35 000р</p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <a href="#"><img src="images/content/action4.jpg" alt="foto"></a>
-                        <div class="box-info-action">
-                            <header class="header-blue">Хорватия</header>
-                            <p>вылеты с октября по январь на 7 дней от 15 000р</p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <a href="#"><img src="images/content/action5.jpg" alt="foto"></a>
-                        <div class="box-info-action">
-                            <header class="header-blue">Аргентина</header>
-                            <p>вылеты с ноября по март на 7 дней от 25 000р</p>
-                        </div>
-                    </li>
-                </ul><!--end LIST-ACTIONS-->
-            </div><!--end WRAP-LIST-ACTIONS-->
-
-            <div class="box-countries">
-                <header class="header-blue">Выберите страну:</header>
-
-                <ul class="list-countries">
-                    <li>
-                        <a href="#">
-                            <img src="images/content/flags/bolgaria.jpg" alt="foto">
-                            <span class="name-countries">Болгария</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <img src="images/content/flags/tunis.jpg" alt="foto">
-                            <span class="name-countries">Тунис</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <img src="images/content/flags/mexica.jpg" alt="foto">
-                            <span class="name-countries">Мексика</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <img src="images/content/flags/grece.jpg" alt="foto">
-                            <span class="name-countries">Греция</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <img src="images/content/flags/kipr.jpg" alt="foto">
-                            <span class="name-countries">Кипр</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <img src="images/content/flags/japan.jpg" alt="foto">
-                            <span class="name-countries">Япония</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <img src="images/content/flags/turciya.jpg" alt="foto">
-                            <span class="name-countries">Турция</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <img src="images/content/flags/marocco.jpg" alt="foto">
-                            <span class="name-countries">Марокко</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <img src="images/content/flags/india.jpg" alt="foto">
-                            <span class="name-countries">Индия</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <img src="images/content/flags/dominikana.jpg" alt="foto">
-                            <span class="name-countries">Доминикана</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <img src="images/content/flags/chorvatia.jpg" alt="foto">
-                            <span class="name-countries">Ховатия</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <img src="images/content/flags/OAE.jpg" alt="foto">
-                            <span class="name-countries">ОАЕ</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <img src="images/content/flags/spanis.jpg" alt="foto">
-                            <span class="name-countries">Испания</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <img src="images/content/flags/italia.jpg" alt="foto">
-                            <span class="name-countries">Италия</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <img src="images/content/flags/egypet.jpg" alt="foto">
-                            <span class="name-countries">Египет</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <img src="images/content/flags/cuba.jpg" alt="foto">
-                            <span class="name-countries">Куба</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <img src="images/content/flags/vetnam.jpg" alt="foto">
-                            <span class="name-countries">Въетнам</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <img src="images/content/flags/tayland.jpg" alt="foto">
-                            <span class="name-countries">Тайланд</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <img src="images/content/flags/maldivi.jpg" alt="foto">
-                            <span class="name-countries">Малбдивы</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <img src="images/content/flags/franch.jpg" alt="foto">
-                            <span class="name-countries">Франция</span>
-                        </a>
-                    </li>
-                </ul><!--end LIST-COUNTRIES-->
-            </div><!--end BOX-COUNTRIES-->
-
-            <div class="box-partners">
-                <header class="header-blue">Наши партнеры</header>
-
-                <button class="prev"></button>
-                <button class="next"></button>
-                <div class="bg-slider">
-                    <div class="any-class">
-                        <ul>
-                            <li>
-                                <div><img src="images/content/slide1.png" alt="foto"></div>
-                            </li>
-
-                            <li>
-                                <div><img src="images/content/slide2.png" alt="foto"></div>
-                            </li>
-
-                            <li>
-                                <div><img src="images/content/slide3.jpg" alt="foto"></div>
-                            </li>
-
-                            <li>
-                                <div><img src="images/content/slide4.jpg" alt="foto"></div>
-                            </li>
-                        </ul>
-                    </div><!--end ANY-SLIDER-->
-                </div><!--end BG-SLIDER-->
-            </div><!--end BOX-PARTNERS-->
-
-            <div class="text-column">
-                <div class="left-column">
-                    <strong>Ищите где купить путевку? Все туры из Килининграда на одном сайте</strong>
-                    <p>gfhfghffgh fg hfghfghfghfghfghf gfhfghfghfghf fghfghgfhfgh fghgfhfghfghfg fdgfdgdfgdfgdfgdgd
-                    dfgdfgdfgdgdgdfgdddddddddddddddddddd fddddddddddddddddddddddddddddddd fddddddddddddddddd
-                    dfffffffffffffffffffffffffffffffffffffffffffffffffffffffgggggg ffffffffffffffffffffffff</p>
-
-                    <p>gfhfghffgh fg hfghfghfghfghfghf gfhfghfghfghf fghfghgfhfgh fghgfhfghfghfg fdgfdgdfgdfgdfgdgd
-                        dfgdfgdfgdgdgdfgdddddddddddddddddddd fddddddddddddddddddddddddddddddd fddddddddddddddddd
-                        dfffffffffffffffffffffffffffffffffffffffffffffffffffffffgggggg ffffffffffffffffffffffff</p>
-                </div>
-                <div class="left-column">
-                    <strong>Ищите где купить путевку? Все туры из Килининграда на одном сайте</strong>
-                    <p>gfhfghffgh fg hfghfghfghfghfghf gfhfghfghfghf fghfghgfhfgh fghgfhfghfghfg fdgfdgdfgdfgdfgdgd
-                        dfgdfgdfgdgdgdfgdddddddddddddddddddd fddddddddddddddddddddddddddddddd fddddddddddddddddd
-                        dfffffffffffffffffffffffffffffffffffffffffffffffffffffffgggggg ffffffffffffffffffffffff</p>
-
-                    <p>gfhfghffgh fg hfghfghfghfghfghf gfhfghfghfghf fghfghgfhfgh fghgfhfghfghfg fdgfdgdfgdfgdfgdgd
-                        dfgdfgdfgdgdgdfgdddddddddddddddddddd fddddddddddddddddddddddddddddddd fddddddddddddddddd
-                        dfffffffffffffffffffffffffffffffffffffffffffffffffffffffgggggg ffffffffffffffffffffffff</p>
-                </div>
-            </div>
+                <input type="submit" class="btn-big-blue btn-big-purple float-r" value="Отправить заявку">
+            </form><!--end FORM-BOX-CONTACT-->
         </main><!--end CONTENT-->
     </div><!--end WRAPPER-->
 
@@ -422,9 +115,6 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/jquery.easing-1.3.js"></script>
-    <script src="js/jquery.mousewheel-3.1.12.js"></script>
-    <script src="js/jquery.jcarousellite.js"></script>
     <script src="js/mainJs.js"></script>
 </body>
 </html>
