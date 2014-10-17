@@ -3,10 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Контакты - Альфа-тур</title>
+    <title>Заявка онлайн - Альфа-тур</title>
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href="style/jquery-ui-1.10.4.custom.min.css" rel="stylesheet">
     <link href="style/style.css" rel="stylesheet">
+    <link href="style/select2.css" rel="stylesheet">
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 </head>
 
@@ -43,50 +45,124 @@
         </header><!--end HEADER-->
 
         <main class="content bg-contact">
-            <h1 class="main-header">Контакты:</h1>
+            <h1 class="main-header">Онлайн заявка:</h1>
 
-            <dl class="box-contact">
-                <dt>Наш адрес:</dt>
-                <dd>73000</dd>
-                <dd>г.Херсон</dd>
-                <dd>ул.Советская, 12/14, Б</dd>
+            <form action="#" method="post" class="form-box-online">
+                <ul class="box-filter-form">
+                    <li>
+                        <span class="name-input-filter">Страна:</span>
+                        <span class="custom-icon-select">
+                            <select class="size-width153">
+                                <option>Египет</option>
+                                <option>Турция</option>
+                            </select>
+                        </span>
+                    </li>
 
-                <dt>Режим работы:</dt>
-                <dd>понедельник - пятница, с 9:00 до 18:00</dd>
-                <dd>суббота: с 10:00 до 18:00</dd>
-                <dd>воскременье: по предварительной договоренности</dd>
+                    <li>
+                        <span class="name-input-filter">Отель (звезд):</span>
 
-                <dt>Телефоны отдела продаж и техподдержки клиентов:</dt>
-                <dd>+38 (050) 846-44-62</dd>
-                <dd>+38 (099) 666-11-37</dd>
-                <dd>
-                    <img src="http://api-maps.yandex.ru/services/constructor/1.0/static/?sid=xenC1AQodNB0A4sM2u06P5G2eG-R_ijt&width=390&height=150" alt=""/>
-                </dd>
-            </dl><!--end BOX-CONTACT-->
+                        <ul class="list-number-stars">
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                        </ul>
+                    </li>
 
-            <form action="#" method="post" class="form-box-contact">
-                <label>
-                    <span>Ваше имя:</span>
-                    <input type="text">
-                </label>
+                    <li>
+                        <span class="name-input-filter">Даты вылета:</span>
+                        <input type="text" class="input-calendar_js calendar_js" value="12/12/12">
+                        <span class="hyphen">&#8212;</span>
+                        <input type="text" class="input-calendar_js calendar_js" value="12/12/12">
+                    </li>
 
-                <label>
-                    <span>Ваш email:</span>
-                    <input type="text">
-                </label>
+                    <li>
+                        <span class="name-input-filter">Длительность тура:</span>
+                        <span class="custom-icon-select">
+                            <select class="size-width85">
+                                <option>6</option>
+                                <option>7</option>
+                            </select>
+                        </span>
 
-                <label>
-                    <span>Ваше телефон:</span>
-                    <input class="tel-valid_js" type="text">
-                </label>
+                        <span class="hyphen">&#8212;</span>
 
-                <label>
-                    <textarea></textarea>
-                    <span>Сообщение:</span>
-                </label>
+                        <span class="custom-icon-select">
+                            <select class="size-width85">
+                                <option>16</option>
+                                <option>17</option>
+                            </select>
+                        </span>
+                        <span class="text-near-input">ночей</span>
+                    </li>
 
-                <input type="submit" class="btn-big-blue btn-big-purple float-r btn-submit_js" value="Отправить заявку">
-            </form><!--end FORM-BOX-CONTACT-->
+                    <li>
+                        <span class="name-input-filter">Количество взрослых:</span>
+                        <span class="custom-icon-select">
+                            <select class="size-width85">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </span>
+                    </li>
+
+                    <li>
+                        <span class="name-input-filter">Количество детей:</span>
+                        <span class="custom-icon-select">
+                            <select class="size-width85">
+                                <option>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </span>
+                    </li>
+
+                    <li>
+                        <span class="name-input-filter">Цена:</span>
+                        <span class="custom-icon-select">
+                            <select id="test" class="testclass size-width85 pad-left-no test1">
+                                <option>10000</option>
+                                <option>12000</option>
+                                <option>14000</option>
+                                <option>16000</option>
+                            </select>
+                        </span>
+
+                        <span class="hyphen">&#8212;</span>
+
+                        <span class="custom-icon-select">
+                            <select id="test2" class="testclass size-width85 pad-left-no test2">
+                                <option>20000</option>
+                                <option>22000</option>
+                                <option>24000</option>
+                                <option>26000</option>
+                            </select>
+                        </span>
+                    </li>
+                </ul><!--end BOX-FILTER-FORM-->
+
+                <div class="form-box-contact">
+                    <label>
+                        <span>Ваше имя:</span>
+                        <input type="text">
+                    </label>
+
+                    <label>
+                        <span>Ваше телефон:</span>
+                        <input class="tel-valid_js" type="text">
+                    </label>
+
+                    <label>
+                        <textarea></textarea>
+                        <span>Сообщение:</span>
+                    </label>
+
+                    <input type="submit" class="btn-big-blue btn-big-purple float-r btn-submit_js" value="Отправить заявку">
+                </div><!--end FORM-BOX-CONTACT-->
+            </form>
         </main><!--end CONTENT-->
     </div><!--end WRAPPER-->
 
@@ -114,7 +190,9 @@
     </div><!--end WRAP-FOOTER-->
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script src="js/selectCustomPlugin.js"></script>
     <script src="js/mainJs.js"></script>
 </body>
 </html>
