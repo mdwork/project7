@@ -694,6 +694,13 @@ a:hover                        { text-decoration:none; }
                                 width: 121px;
                                 padding-left: 20px !important;
                             }
+
+.tour-page-popup {
+    display: none;
+    width: 937px;
+    padding: 30px;
+    background: #fff;
+}
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------FOOTER---------------------------------------*/
 /*----------------------------------------------------------------------------------*/
@@ -769,4 +776,49 @@ a:hover                        { text-decoration:none; }
 }
 .pad-left-no {
     padding-left: 0 !important;
+}
+#bg-popup {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#bg-popup .overview {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+#wrap-popup {
+    position: absolute;
+    background-color: #F7F7F7;
+    opacity: 0;
+}
+.show_js {
+    display: block !important;
+}
+.form-box-contact_js {
+    display: none;
+}
+.icon-close_js {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    display: block;
+    width: 7px;
+    height: 7px;
+    background: url("../images/content/icon_close.jpg") no-repeat;
+    cursor: pointer;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+.icon-close_js:hover {
+    opacity: 1;
+}
+.form-box-contact_js {
+    padding: 25px;
 }
