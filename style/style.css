@@ -658,3 +658,15 @@ a:hover                        { text-decoration:none; }
         background-size: 100% 100%;
     }
 }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------OTHER----------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.no-valid-email_js {
+    border: 2px solid #DB0000 !important;
+    width: 238px !important;
+}
+.btn-disable_js {
+    background: #ccc !important;
+    border-color: #ccc !important;
+    box-shadow: none !important;
+}
