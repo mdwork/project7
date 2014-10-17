@@ -215,7 +215,11 @@ a:hover                        { text-decoration:none; }
                     height: 21px;
                     background: url("../images/content/icon_search.jpg") no-repeat;
                 }
-                .wrap-btn-search:after {
+                .custom-input-bg {
+                    position: relative;
+                }
+                .wrap-btn-search:after,
+                .custom-input-bg:after {
                     content: '';
                     position: absolute;
                     right: 9px;
@@ -224,6 +228,9 @@ a:hover                        { text-decoration:none; }
                     height: 10px;
                     background: url("../images/content/icon_triagle_bottom.jpg") no-repeat;
                 }
+                    .custom-input-bg:after {
+                        top: 5px;
+                    }
                     .wrap-btn-search input {
                         display: block;
                         width: 680px;
@@ -649,6 +656,7 @@ a:hover                        { text-decoration:none; }
                 .box-filter-form select {
                     height: 35px;
                     padding: 7px 0 7px 20px;
+                    cursor: pointer;
                 }
                 .list-number-stars {
                     display: inline-block;
