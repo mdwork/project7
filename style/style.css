@@ -580,7 +580,7 @@ a:hover                        { text-decoration:none; }
             width: 240px;
             padding: 0 5px;
             font-size: 15px;
-            border: 1px solid #9D4084;
+            border: 1px solid #0F67A5;
             line-height: 33px;
 
             -webkit-border-radius: 5px;
@@ -603,22 +603,22 @@ a:hover                        { text-decoration:none; }
             display: block;
             width: 250px;
             padding: 11px 0;
-            background: #B14895;
-            border-bottom: 1px solid #B14895;
+            background: #0F67A5;
+            border-bottom: 1px solid #0F67A5;
             color: #fff;
             font-size: 16px;
 
-            -webkit-box-shadow: 0 5px 0 0 rgb(157,64,132);
-            -moz-box-shadow:    0 5px 0 0 rgb(157,64,132);
-            box-shadow:         0 5px 0 0 rgb(157,64,132);
+            -webkit-box-shadow: 0 5px 0 0 rgb(13,92,148);
+            -moz-box-shadow:    0 5px 0 0 rgb(13,92,148);
+            box-shadow:         0 5px 0 0 rgb(13,92,148);
 
             -webkit-border-radius: 5px;
             -moz-border-radius: 5px;
             border-radius: 5px;
         }
         .btn-big-purple:hover {
-            background: #9D4084;
-            border-bottom-color: #9D4084;
+            background: #0D5C94;
+            border-bottom-color: #0D5C94;
         }
 
     .form-box-online {
@@ -645,13 +645,17 @@ a:hover                        { text-decoration:none; }
                 .list-number-stars li {
                     padding: 0 5px;
                     font-size: 15px;
-                    border: 1px solid #9D4084;
+                    border: 1px solid #0F67A5;
                     line-height: 33px;
                     height: 33px;
                     -webkit-border-radius: 5px;
                     -moz-border-radius: 5px;
                     border-radius: 5px;
                 }
+                    .list-number-stars li.active {
+                        background: #0F67A5;
+                        color: #fff;
+                    }
                 .box-filter-form select {
                     height: 35px;
                     padding: 7px 0 7px 20px;

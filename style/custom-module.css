@@ -285,7 +285,7 @@
     margin-left: -9px;
     background-image: url("../images/popup/cicrle.png");
     background-repeat: no-repeat;
-    background-position: 4px 5px;
+    background-position: 5px 5px;
     cursor: pointer;
 }
 #TVPrice .TVSlider .TVLabel {
@@ -302,4 +302,83 @@
 }
 #TVRaiting .TVTextBox {
     padding: 6px 8px;
+}
+.TVSRPriceValue {
+    position: relative;
+    left: auto;
+    margin-right: 10px;
+}
+.TVSRArrow {
+    display: none;
+}
+.TVSRRightBlock .TVSRPriceValue {
+    height: auto;
+    padding: 6px 0 7px;
+    background-color: #F7D931;
+    font: bold 15px 'Open Sans';
+    color: #000;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff
+}
+#ts_search_fuel_warning {
+    font: bold 13px 'Open Sans';
+}
+#ts_search_showall_link {
+    font: 13px 'Open Sans' !important;
+}
+.TVTextBoxSelector {
+    background-image: url("../images/popup/custom_select_triagle.png");
+    background-repeat:  no-repeat;
+    background-position: 0px 6px;
+}
+.TVResultPanel .TVUndoButton {
+    background: url("../images/content/icon_close.jpg") no-repeat;
+}
+#TVSearchForm #TVDepDate .TVTextBox:after,
+#TVSearchForm #TVNights .TVTextBox:after,
+#TVSearchForm #TVTourists .TVTextBox:after,
+#TVSearchForm #TVFeed .TVTextBox:after {
+    content: '';
+    background-image: url("http://tourvisor.ru/module/newform/images/sprite.png");
+    background-position: 0 -59px;
+    background-repeat: no-repeat;
+    float: right;
+    height: 15px;
+    position: relative;
+    top: -17px;
+    right: 7px;
+    width: 15px;
+    cursor: pointer;
+}
+#TVFeed .TVTextBox:after {
+    right: 0;
+}
+#TVFeed .TVTextBoxSelector {
+    display: none;
+}
+#ts_basket_button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    bottom: auto;
+    width: 215px;
+    padding: 20px 10px 25px 25px;
+    background: #FBFBFB;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.ts_bskt_button_icon {
+    width: 44px;
+    height: 43px;
+    background: url("../images/popup/cart_shopping.png") no-repeat;
+}
+.ts_bskt_button_header {
+    margin-left: 70px;
+    font: 600 13px 'Open Sans';
+}
+.ts_bskt_button_tours {
+    top: 20px;
+    left: 66px;
+    font: 600 13px 'Open Sans';
 }

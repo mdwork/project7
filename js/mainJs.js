@@ -83,4 +83,8 @@ $(document).ready(function(){
 
     popupWindow(btnPopupCall, callForm);
     popupWindow(popupTourPage, callPage);
+
+    $('.list-number-stars li').on('click', function(){
+        $(this).toggleClass('active');
+    });
 });
