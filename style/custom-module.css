@@ -1,0 +1,305 @@
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CUSTOM MODULE--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.TVLabel {
+    font-family: 'Open Sans';
+}
+.TVMainForm {
+    padding: 0 0 7px 0;
+}
+.TVLocationBox {
+    font: bold 15px 'Open Sans';
+    color: #000;
+}
+.TVLocationBox .TVContent {
+    font: bold 15px 'Open Sans';
+}
+.TVSmartTextBox {
+    position: relative;
+    padding: 0 7px 0 10px;
+    border: 1px solid #0F67A5;
+    background: #fff;
+
+    box-shadow: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.TVSearchingForm .TVLabel {
+    font-size: 15px;
+}
+.TVTextBox {
+    position: relative;
+    display: block;
+    border: 1px solid #0F67A5;
+    background: #fff;
+    font-family: 'Open Sans';
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    box-shadow: none;
+    color: #000;
+}
+.TVTextBoxContent {
+    color: #000;
+    font: bold 15px 'Open Sans';
+}
+.TVTextBox:hover {
+    box-shadow: none;
+}
+#TVSearchForm  .TVTextBoxContent {
+    width: 183px;
+    padding-left: 80px;
+}
+.TVTextBox {
+    padding: 5px 0 6px;
+}
+.TVStandartForm .TVDepDateBlock {
+    width: auto;
+}
+.TVMainForm .TVFormBlock {
+    margin-right: 0;
+    margin-left: 33px;
+}
+#TVDepDate {
+    margin-left: 0;
+}
+#TVSearchForm  .TVStandartForm .TVNightsBlock {
+    width: 155px;
+}
+#TVSearchForm .TVFormBlock.TVNightsBlock .TVTextBoxContent {
+    padding-left: 55px;
+}
+.TVStandartForm .TVTouristsBlock {
+    width: 264px;
+}
+#TVSearchForm .TVFormBlock.TVTouristsBlock .TVTextBoxContent {
+    padding-left: 45px;
+}
+#TVSearchForm #TVRaiting,
+#TVSearchForm #TVHotelTypeCmb {
+    display: none;
+}
+.TVMainForm,
+.TVFilterForm {
+    background: none;
+    background-color: transparent !important;
+}
+.TVFilterForm {
+    color: #000;
+    padding: 0;
+}
+.TVImageBox div {
+    cursor: pointer;
+    background-image: url("../images/content/stars.png") !important;
+    background-repeat: no-repeat;
+}
+#TVSearchForm .TVSearchButton {
+    width: 300px;
+    padding: 12px 0 11px;
+    background: #0F67A5;
+    color: #f9f740 !important;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #0F67A5;
+    font: 600 19px 'Open Sans';
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    -webkit-box-shadow: 0 5px 0 0 rgb(13,92,148);
+    -moz-box-shadow: 0 5px 0 0 rgb(13,92,148);
+    box-shadow: 0 5px 0 0 rgb(13,92,148);
+}
+.TVSearchButton:hover,
+#TVSearchForm .TVSearchButton:hover {
+    background: #0D5C94;
+    border-bottom: 1px solid #0D5C94;
+}
+.TVStandartForm .TVSearchButtonBlock {
+    width: auto;
+}
+.TVButton:hover {
+    -webkit-box-shadow: 0 5px 0 0 rgb(13,92,148);
+    -moz-box-shadow: 0 5px 0 0 rgb(13,92,148);
+    box-shadow: 0 5px 0 0 rgb(13,92,148);
+}
+.TVSearchButton:hover {
+    background-color: #0D5C94 !important;
+}
+.TVStandartForm .TVFeedBlock {
+    width: 155px;
+}
+#TVSearchForm  #TVFeed .TVTextBoxContent {
+    padding-left: 50px;
+}
+#TVFeed .TVTextBox {
+    text-transform: capitalize;
+    padding: 6px 8px 7px;
+}
+.TVInterfaceWrapper {
+    position: relative;
+}
+#TVSearchForm #TVFilterForm {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.TVStandartForm .TVStarsBlock {
+    width: auto;
+}
+.TVFilterForm .TVFormBlock {
+    margin-right: 65px;
+}
+.TVImageBox {
+    margin-right: 6px;
+}
+.TVContainer {
+    width: 145px !important;
+}
+/*result page*/
+.TVResultPanel .TVInterfaceWrapper {
+    overflow: hidden;
+    padding: 15px 10px 17px 20px;
+    margin-bottom: 15px;
+    border: 1px solid #EAF1EB;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.TVResultPanel #TVLocation .TVContent {
+    font-size: 18px;
+}
+.TVResultPanel .TVLocationBox {
+    margin-top: 0 !important;
+}
+.TVResultPanel .TVWideFilterForm .TVMainForm {
+    padding: 0;
+}
+.TVResultPanel #TVLocation {
+    margin-left: 0;
+}
+.TVResultPanel .TVWideFilterForm .TVMainForm .TVFormBlock {
+    margin-right: 10px;
+}
+.TVResultPanel .TVMainForm .TVFormBlock {
+    margin-left: 0;
+}
+.TVResultPanel .TVMainForm .TVTextBox {
+    border: 1px solid #EAF1EB;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: url("../images/popup/custom_select_triagle.png") no-repeat;
+}
+.TVResultPanel .TVMainForm .TVTextBoxContent {
+    padding-left: 5px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.TVResultPanel .TVMainForm #TVLocation {
+    margin-right: 65px;
+}
+.TVResultPanel #TVCountry .TVTextBox {
+    background-position: 85px 10px;
+}
+.TVResultPanel .TVWideFilterForm .TVCountryBlock {
+    width: 100px;
+}
+.TVResultPanel #TVDepDate {
+    width: 135px;
+}
+.TVResultPanel #TVDepDate .TVTextBox {
+    background-position: 120px 10px;
+}
+.TVResultPanel .TVMainForm .TVTextBox {
+    padding: 2px 0 3px;
+}
+.TVResultPanel .TVWideFilterForm .TVNightsBlock {
+    width: 88px;
+}
+.TVResultPanel .TVWideFilterForm .TVNightsBlock .TVTextBox {
+    background-position: 75px 10px;
+}
+.TVResultPanel .TVWideFilterForm .TVTouristsBlock {
+    width: 113px;
+}
+.TVResultPanel .TVWideFilterForm .TVTouristsBlock .TVTextBox {
+    background-position: 100px 10px;
+}
+.TVResultPanel .TVMainForm .TVSearchButton {
+    display: inline-block;
+    width: 138px;
+    padding: 3px 0 2px;
+    background: #0F67A5;
+    border: none;
+    border-bottom: 1px solid #0F67A5;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 5px 0 0 rgb(13,92,148);
+    -moz-box-shadow: 0 5px 0 0 rgb(13,92,148);
+    box-shadow: 0 5px 0 0 rgb(13,92,148);
+}
+.TVResultPanel .TVMainForm .TVSearchButton:hover {
+    border-bottom-color: #0D5C94;
+}
+#TVHotelList .TVInputWrap {
+    display: none;
+}
+.TVResultPanel #TVFilterForm {
+    width: 160px;
+    padding: 10px;
+    border: 1px solid #EAF1EB;
+}
+#TVFilterForm .TVResortBox .TVWrapper,
+#TVHotelList .TVWrapper {
+     border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+#TVResortList .TVHotelHeader .TVCheckBox,
+#TVHotelList .TVHotelHeader .TVCheckBox {
+    float: right;
+}
+.TVWideFilterForm #TVResortList {
+    margin-bottom: 25px;
+}
+#TVPrice .TVLabel {
+    margin-bottom: 35px;
+}
+.TVSlideNode {
+    border: none;
+    height: 2px;
+}
+.TVSlideNode .TVSliderRange {
+    height: 2px;
+}
+.TVSliderHand {
+    margin-left: -9px;
+    background-image: url("../images/popup/cicrle.png");
+    background-repeat: no-repeat;
+    background-position: 4px 5px;
+    cursor: pointer;
+}
+#TVPrice .TVSlider .TVLabel {
+    position: relative;
+    top: -35px;
+    margin: 0;
+    font-size: 11px;
+}
+#TVFilterForm .TVComboBox .TVTextBox {
+    background-image: none;
+}
+#TVRaiting .TVLabel {
+    width: 100% !important;
+}
+#TVRaiting .TVTextBox {
+    padding: 6px 8px;
+}
