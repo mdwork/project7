@@ -438,34 +438,41 @@ a:hover                        { text-decoration:none; }
             height: 235px;
             background: url("../images/content/balloon.jpg") no-repeat;
         }
-        .list-countries {
+        .list-countries-wrap {
+            overflow: hidden;
             position: relative;
             z-index: 10;
             width: 973px;
-            height: 173px;
-            padding: 36px 0 0 27px;
+            padding: 36px 0 15px 27px;
             background: url("../images/content/border_fon.png") #fff no-repeat;
+            background-size: 100% 100%;
         }
-            .list-countries li {
+            .list-countries {
                 float: left;
                 width: 145px;
-                margin: 0 55px 20px 0;
+                margin: 0 55px 0 0;
             }
-                .list-countries a:hover span {
-                    text-decoration: underline;
+                .list-countries li {
+                    margin: 0 0 20px 0;
                 }
-                    .list-countries img {
-                        float: left;
-                        width: 30px;
-                        height: 20px;
+                .list-countries.fifth {
+                    margin-right: 0;
+                }
+                    .list-countries a:hover span {
+                        text-decoration: underline;
                     }
-                    .name-countries {
-                        display: inline-table;
-                        line-height: 20px;
-                        text-transform: uppercase;
-                        font-weight: 700;
-                        margin-left: 15px;
-                    }
+                        .list-countries img {
+                            float: left;
+                            width: 30px;
+                            height: 20px;
+                        }
+                        .name-countries {
+                            display: inline-table;
+                            line-height: 20px;
+                            text-transform: uppercase;
+                            font-weight: 700;
+                            margin-left: 15px;
+                        }
 
     .box-partners {
         position: relative;
